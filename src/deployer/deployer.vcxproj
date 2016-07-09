@@ -55,8 +55,8 @@
       </Command>
     </PreLinkEvent>
     <PreBuildEvent>
-      <Command>cd $(SolutionDir)..
-src\deployer\deployer.bat</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
