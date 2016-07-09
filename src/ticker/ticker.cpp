@@ -6,9 +6,9 @@
 
 int main(int argc, char* argv[])
 {
-    while (true) 
+    for (int counter = 0; true; ++counter) 
     {
-        cout << "Tick" << endl;
+        cout << "Tick: " << counter << endl;
         std::this_thread::sleep_for(std::chrono::seconds(1));
     };
     return 0;
